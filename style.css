@@ -2,6 +2,143 @@
     margin: 0;
     padding: 0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+
 body{
-    background-color: red;
+    font-family: 'Mulish', sans-serif;
+
 }
+
+:root{
+    --ash-color: #424247; 
+    --orange-color: #FF5400;
+}
+
+/* header section start */
+
+nav{
+    display: flex;
+    padding: 50px 135px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+nav > .logo > h3{
+    color: #131318;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+nav > .logo span{
+    color: var(--orange-color);
+}
+
+nav > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+}
+
+nav > ul > li{
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: var(--ash-color);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav > ul > li > .orange{
+    color: var(--orange-color);
+}
+
+/* header section end  */
+
+/* main section start */
+
+/* banner section start */
+
+.banner{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/banner.png);
+    width: calc(100vw - 270px);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner > h2{
+    font-size: 64px;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+.banner > p{
+    width: 670px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.banner > .ban-div{
+    display: flex;
+    gap: 24px;
+    padding: 16px;
+    width: 50%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+
+}
+
+.banner > .ban-div > button, select{
+    width: 174px;
+    height: 52px;
+    padding: 16px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50);
+}
+
+.banner > .ban-div > .last{
+    background-color: var(--orange-color);
+    color: #fff;
+}
+
+
+
+
+/* banner section end */
+
+
+
+
+/* main section end */

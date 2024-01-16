@@ -39,6 +39,14 @@ nav > .logo{
     gap: 16px;
 }
 
+nav > .i{
+    font-size: 21px;
+    font-weight: 400;
+    color: var(--ash-color);
+    display: none;
+
+}
+
 nav > .logo > h3{
     color: #131318;
     font-size: 2.2rem;
@@ -701,3 +709,36 @@ footer > .icon{
 }
 
 /* footer section end */
+
+/* website responsive start*/
+
+/* @media screen and (max-width:600px) {
+    header{
+        display: none;
+    }
+
+    main > .banner{
+        display: none;
+    }
+
+    .tours{
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 20px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .tours > .tour-text > p, ul > li > p{
+        width: 80%;
+        padding: 0 20px;
+        
+    }
+
+    .tours > .tour-text > img{
+        width: 100%;
+        padding: 0 20px;
+    }
+} */
+
+/* website responsive end */

@@ -620,15 +620,13 @@ font-weight: 700;
 }
 
 .newslatter > .form > button{
-    max-width: 393px;
-    height: 52px;
-    border-radius: 8px;
-    background: #FF5400;
     border: 0;
+    background-color: #FF5400;
+    padding: 14px;
     color: #fff;
-    padding: 14px 147px;
     font-size: 20px;
     font-weight: 700;
+    border-radius: 8px;
 }
 
 .newslatter > .image{
@@ -888,9 +886,6 @@ footer > .icon{
         gap: 30px;
     }
 
-    .newslatter > .form > button{
-        padding: 14px 96px;
-    }
 
     /* .newslatter > .image > .save{
         bottom: 30%;
